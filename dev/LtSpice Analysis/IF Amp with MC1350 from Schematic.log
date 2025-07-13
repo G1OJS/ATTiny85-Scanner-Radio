@@ -1,0 +1,20 @@
+LTspice 24.1.6 for Windows
+Circuit: C:\Users\drala\Documents\Projects\Airband Scanner\LtSpice Analysis\IF Amp with MC1350 from Schematic.net
+Start Time: Sun Jun 15 16:35:58 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+trtol = 7
+WARNING: Node n004 is floating.
+
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.173 seconds.
+
+Files loaded:
+C:\Users\drala\Documents\Projects\Airband Scanner\LtSpice Analysis\IF Amp with MC1350 from Schematic.net
+C:\Users\drala\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\drala\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\drala\AppData\Local\LTspice\lib\cmp\standard.jft
+

@@ -1,0 +1,37 @@
+$CMP MC1350 U1
+$SYMATTR Value MC1350
+$SYMATTR Footprint DIP8*
+U1      1 2 3 4 5 6 7 8
+
+$CMP RES R1
+$SYMATTR Value 2.2k
+R1 Nout1 Vcc
+
+$CMP CAP C1
+$SYMATTR Value 100pF
+C1 Nout1 Nfilt1
+
+$CMP FILTER F1
+$SYMATTR Value CFILT10_7
+F1 Nfilt1 Nfilt2
+
+$CMP RES R2
+$SYMATTR Value 470Ω
+R2 Nfilt2 Nin2
+
+$CMP MC1350 U2
+$SYMATTR Value MC1350
+$SYMATTR Footprint DIP8*
+U2      9 10 11 12 13 14 15 16
+
+$CMP RES R3
+$SYMATTR Value 2.2k
+R3 Nout2 Vcc
+
+$CMP CAP C2
+$SYMATTR Value 100pF
+C2 Nout2 Ndet
+
+$CMP DETECTOR Q1
+$SYMATTR Value JFET_DET
+Q1 Ndet Audio_Gnd
